@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | SA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    body {
+      background-color: grey;
+    }
+
+    .success-analytics {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="background-color: rgb(56, 247, 215); text-align: center; padding: 40px 0; font-size: 2.5em; font-weight: bold;">
+    Text Summarizer
+  </h1>
+
+  <div class="flex max-w-[1500px] w-[100%] justify-center m-auto h-[100vh]" name="success-analytics">
+    <!-- Logos -->
+    <img src="https://successanalytics.in/logo.ab81d45e.png" alt="Logo" class="fixed top-0 left-0 w-[50px] opacity-0 hover:opacity-100" name="success-analytics" />
+    <img src="https://successanalytics.in/logo.ab81d45e.png" alt="Logo" class="fixed bottom-0 left-0 w-[50px] opacity-0 hover:opacity-100" name="success-analytics" />
+    <img src="https://successanalytics.in/logo.ab81d45e.png" alt="Logo" class="fixed top-0 right-0 w-[50px] opacity-0 hover:opacity-100" name="success-analytics" />
+    <img src="https://successanalytics.in/logo.ab81d45e.png" alt="Logo" class="fixed bottom-0 right-0 w-[50px] opacity-0 hover:opacity-100" name="success-analytics" />
+    <!-- Logos -->
+
+    <!-- Hero Section Starts -->
+    <section class="grid sm:grid-cols-2 gap-2 min-w-[100%]" name="success-analytics">
+      <div class="flex justify-center items-center success-analytics" name="success-analytics">
+        <div name="success-analytics">
+          <div class="rounded-md border" name="success-analytics">
+            <img src="https://blog.tail.digital/wp-content/uploads/2020/09/21249.jpg" alt="Laptop" class="h-[300px] w-full rounded-md object-cover" name="success-analytics" width="1000" height="1000" />
+            <div class="px-2" name="success-analytics">
+              <form action="/train" method="POST">
+                <button type="submit" class="my-2 w-full rounded-sm bg-black px-2.5 py-1 text-[25px] font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition duration-300 ease-in-out transform hover:scale-105 processing-animation">
+                  Train Model
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center success-analytics" name="success-analytics">
+        <div name="success-analytics">
+          <div class="rounded-md border" name="success-analytics">
+            <img src="https://icon-library.com/images/summarize-icon/summarize-icon-9.jpg"  class="h-[300px] w-full rounded-md object-cover" name="success-analytics" width="1000" height="1000" />
+            <div class="px-2" name="success-analytics">
+              <button type="button" class="my-2 w-full rounded-sm bg-black px-2.5 py-1 text-[25px] font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black transition duration-300 ease-in-out transform hover:scale-105">
+                <a href="/predict">Summarize</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
+  </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      footer {
+        width: 100%;
+        background-color: #1f1f1f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px 20px;
+        gap: 10px;
+        position: fixed;
+        bottom: 0;
+        margin: 0;
+      }
+
+      footer img {
+        width: 40px;
+        opacity: 0;
+      }
+
+      footer img:hover {
+        width: 40px;
+        opacity: 1;
+      }
+
+      footer p {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        color: aliceblue;
+        opacity: 0;
+      }
+
+      footer p:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <img src="https://successanalytics.in/logo.ab81d45e.png" alt="Logo" />
+      <p>Success Analytics</p>
+    </footer>
+  </body>
+</html>

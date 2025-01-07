@@ -1,0 +1,11 @@
+define the variables in constants file.
+define the artifacts folder in entity file.
+define the full file paths of artifact folders.
+write code for data ingestion 
+now we have data in local ,  ingest it and clean it by (news_dataset.py) and customize it  for training.
+dataloader.py-> read data and prepare split data for traing and testing 
+we have to define the variables in constant file before every step
+train the model and save the artifacts 
+finetuning-calculate loss and update weight, train the model
+evaluate model 
+push the best model to the saved model dir 

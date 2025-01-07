@@ -1,0 +1,11 @@
+pandas
+numpy
+Flask
+flask_cors
+requests
+scikit-learn
+torch
+pytorch_lightning
+transformers
+tensorboard
+-e .
